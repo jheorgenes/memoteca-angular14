@@ -1,0 +1,52 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "We are the champions my friends!!!",
+      "autoria": "Queen",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Na minha máquina funciona!",
+      "autoria": "Dev da madrugada",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Continue a codar... continue a codar...",
+      "autoria": "Dory programadora",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "Testando função de editar",
+      "autoria": "Angular ",
+      "modelo": "modelo2",
+      "id": 4
+    },
+    {
+      "conteudo": "Quando você acredita em algo, acredite até o fim. Não dê margem para nenhum tipo de dúvida.",
+      "autoria": "walt disney",
+      "modelo": "modelo1",
+      "id": 5
+    },
+    {
+      "conteudo": "80% dos seus resultados vêm de 20% das suas ações.",
+      "autoria": "vilfredo pareto",
+      "modelo": "modelo2",
+      "id": 6
+    },
+    {
+      "conteudo": "Um líder é um vendedor de esperança.",
+      "autoria": "napoleão bonaparte",
+      "modelo": "modelo3",
+      "id": 7
+    },
+    {
+      "conteudo": "Antes que diga que não consegue fazer alguma coisa, experimente.",
+      "autoria": "sakichi toyoda",
+      "modelo": "modelo3",
+      "id": 8
+    }
+  ]
+}
