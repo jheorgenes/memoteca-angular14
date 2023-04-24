@@ -17,6 +17,8 @@ export class PensamentoComponent implements OnInit {
     favorito: false
   }
 
+  @Input() listaFavoritos: Pensamento[] = [];
+
   constructor(private service: PensamentoService) { }
 
   ngOnInit(): void {}
@@ -36,7 +38,11 @@ export class PensamentoComponent implements OnInit {
   }
 
   atualizarFavoritos() {
-    this.service.mudarFavorito(this.pensamento).subscribe();
-    console.log(this.pensamento.favorito);
+    this.service
+      .mudarFavorito(this.pensamento)
+      .subscribe(() => {
+        this.listaFavoritos
+          .splice(this.listaFavoritos.indexOf(this.pensamento), 1) //splice remove dados de um array (passando o índex e a qtd de elementos a remover)
+      });
   }
 }
